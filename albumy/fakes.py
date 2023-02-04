@@ -84,6 +84,7 @@ def fake_photo(count=30):
             filename=filename,
             filename_m=filename,
             filename_s=filename,
+            alt_text=fake.text(),
             author=User.query.get(random.randint(1, User.query.count())),
             timestamp=fake.date_time_this_year()
         )
