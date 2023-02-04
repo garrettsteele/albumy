@@ -41,7 +41,7 @@ Test account:
 ML Component:
 First create an Azure account and navigate to the https://azure.microsoft.com/en-us/products/cognitive-services/computer-vision.
 
-Create an instance and once generated add the endpoint and the API key to the /creds/azure.py file. This will be ignored when uploaded to GitHub as it may store sensitive information.
+Create an instance and once generated add the endpoint and the API key to the albumy/creds/azure.py file. This will be ignored when uploaded to GitHub as it may store sensitive information.
 
 
 ## License
